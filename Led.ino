@@ -39,10 +39,9 @@ void loop() {
            digitalWrite(rojo, LOW);
            digitalWrite(amarillo, LOW);
            case 1:
-           while(counter1 == 1){
             digitalWrite(azul, HIGH);
             digitalWrite(rojo, LOW);
-            digitalWrite(amarillo, LOW);}
+            digitalWrite(amarillo, LOW);
            case 2: 
             counter1 = 0;
             default:
@@ -55,10 +54,9 @@ void loop() {
            digitalWrite(rojo, LOW);
            digitalWrite(amarillo, LOW);
            case 1:
-           while(counter2 == 2){
             digitalWrite(azul, LOW);
             digitalWrite(rojo, LOW);
-            digitalWrite(amarillo, HIGH);}
+            digitalWrite(amarillo, HIGH);
            case 2: 
             counter2 = 0;
             default:
@@ -71,10 +69,9 @@ switch(counter3){
            digitalWrite(rojo, LOW);
            digitalWrite(amarillo, LOW);
            case 1:
-           while(counter3 == 1){
             digitalWrite(azul, LOW);
             digitalWrite(rojo, HIGH);
-            digitalWrite(amarillo, LOW);}
+            digitalWrite(amarillo, LOW);
            case 2: 
             counter3 = 0;
             default:
